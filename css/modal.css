@@ -1,0 +1,48 @@
+.custom-modal {
+    box-shadow: 1px 3px 10px rgba(119, 119, 119, 0.1);
+    background-color: #fbfbfb;
+    padding: 2em;
+}
+.custom-modal .dropdown .btn.dropdown-toggle{
+    background-color: #ffffff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+    border: none;
+    color: #d3d8da;
+    padding: 0.4em 1.4em;
+    text-align: start;
+    width: 100%;
+    max-width: 25em;
+    line-height: 1.7;
+}
+.custom-modal .dropdown-toggle::after{
+    content: unset;
+}
+.custom-modal .dropdown .btn.dropdown-toggle i{
+    float: right;
+    font-size: 1.4em;
+    margin-top: 0.2em;
+}
+.custom-modal .modal-input {
+    width: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+    border: none;
+    margin-top: 1.5em;
+    padding: 0.9em 1.4em;
+}
+.custom-modal .modal-input::placeholder {
+    color: #d3d8da;
+}
+.custom-modal .modal-text{
+    color: #818e94;
+    font-size: 0.9em;
+    margin: 1.7em 0
+}
+.message-box .message-text {
+    font-weight: 500;
+    margin-bottom: 1.7em;
+}
+.message-box{
+    background-color: #ffffff;
+    padding: 2em 1em 0.5em 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+}

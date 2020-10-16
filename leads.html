@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/css-reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <!-- Seide Menu -->
+        <div class="side-menu">
+            <a class="brand-logo" href="#">
+                FiDash
+            </a>
+            <div class="side-links">
+                <a class="side-link" href="#">
+                    <i class="far fa-file-alt"></i>
+                    Dashboard
+                </a>
+                <a class="side-link" href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    Processing
+                </a>
+                <a class="side-link active" href="#">
+                    <i class="far fa-calendar-alt"></i>
+                    Leads
+                </a>
+                <a class="side-link" href="#">
+                    <i class="fas fa-warehouse"></i>
+                    Campings
+                </a>
+                <a class="side-link" href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    Stats
+                </a>
+            </div>
+            <div class="download">
+                <div>PDF Report</div>
+                <div class="download-text">Download monthly report</div>
+                <a class="download-btn" href="#">
+                    <i class="fas fa-download mr-2 text-dark"></i>
+                    Download
+                </a>
+            </div>
+        </div>
+        <!-- Main Menu -->
+        <div class="main-menu">
+            <div class="login">
+                <a class="setting" href="#">
+                    <i class="fas fa-cog"></i>
+                </a>
+                <div class="dropdown custom-dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Charlize Yoder</div>
+                            <div class="gray-text">Chief manager</div>
+
+                        </div>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-heading">Leads</div>
+            <div class="sub-heading">View</div>
+            <div class="float-right">
+                <span class="text">Sort by Latest</span>
+                <a class="sort-link" href="#">
+                    <i class="fas fa-sliders-h"></i>
+                </a>
+            </div>
+            <div class="group-cards mt-5">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn processing-btn" href="#">Processing</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn processing-btn" href="#">Processing</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn processing-btn" href="#">Processing</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-cards">
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="user-details">
+                        <img src="./img/user-default-grey.png" alt="">
+                        <div>
+                            <div class="user-name">Grand Marshall</div>
+                            <div class="user-email">marshall@yahoo.com</div>
+                        </div>
+                    </div>
+                    <div class="user-card-footer">
+                        <a class="user-card-btn" href="#">Processed</a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-pen"></i>
+                        </a>
+                        <a class="icons-link" href="#">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="custom-modal">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pick Template <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </div>
+                            </div>
+                            <input class="modal-input" type="text" name="" id="" placeholder="Subject">
+                            <div class="modal-text">Content of Message</div>
+                            <div class="message-box">
+                                <div class="message-text">John,</div>
+                                <div class="message-text">
+                                    I was looking at your digital media strategy against (competitor) and I wanted to
+                                    share some suggestions:
+                                </div>
+                                <div class="message-text">(competitor) is buying x, y, and z keywords and you aren’t
+                                    It looks like you are getting around (# of visitors) per month, what is the
+                                    conversion on that?
+                                </div>
+                                <div class="message-text">
+                                    I wanted to share some suggestions with you because our secret sauce is optimizing
+                                    your digital media, website, and retention.
+                                </div>
+                                <div class="message-text">
+                                    I believe there is a big opportunity to increase your conversion rates (we increased
+                                    our latest client’s conversion rate by 89%)
+                                </div>
+                                <div class="message-text mb-0">
+                                    Are you free today or tomorrow to discuss?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
